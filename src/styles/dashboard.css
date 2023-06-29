@@ -1,0 +1,12 @@
+.dashboard-main{
+    display: flex;
+}
+
+.flashcards-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-cards-div{
+    display: flex;
+}

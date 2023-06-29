@@ -1,0 +1,33 @@
+.left-side-bar-auth{
+    width: 36.75rem;
+    height: 38.55rem;
+    flex-shrink: 0;
+    color: #FFF;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.auth-left-heading{
+    color: #FFF;
+    font-size: 4.5rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-side-bar-dash{
+
+    width: 17.5rem;
+    height: 38.55rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    background: #000;
+    color: #FFF;
+}
+
+.bullet-div{
+    display: flex;
+}
