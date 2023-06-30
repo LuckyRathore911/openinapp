@@ -8,7 +8,8 @@ import FooterCard from "../components/FooterCard";
 import "../styles/dashboard.css";
 
 const Dashboard = (props) => {
-  return (
+  
+  return (  
     <div>
       {/* User should be signed in to access this page, 
       i.e., the number of keys of the user object should be more than 0. */}
@@ -36,6 +37,7 @@ const Dashboard = (props) => {
           </div>
         </div>
       )}
+
     </div>
   );
 };
