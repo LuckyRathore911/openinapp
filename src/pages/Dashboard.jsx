@@ -1,6 +1,5 @@
 import React from "react";
 
-import LeftSidebar from "../components/LeftSidebar";
 import FlashCard from "../components/FlashCard";
 import Navbar from "../components/Navbar";
 import Chart from "../components/Chart";
@@ -8,35 +7,35 @@ import FooterCard from "../components/FooterCard";
 
 import "../styles/dashboard.css";
 
-const Dashboard = () => {
+const Dashboard = (props) => {
   return (
-    <div className="dashboard-main">
-      <div className="left-side">
-        <LeftSidebar />
-      </div>
+    <div>
+      {/* User should be signed in to access this page, 
+      i.e., the number of keys of the user object should be more than 0. */}
 
-      <div>
-        <div>
-          <Navbar />
+      {Object.keys(props.user).length !== 0 && (
+        <div className="dashboard-main">
+          <div>
+            <Navbar />
+          </div>
+
+          <div className="flashcards-div">
+            <FlashCard />
+            <FlashCard />
+            <FlashCard />
+            <FlashCard />
+          </div>
+
+          <div>
+            <Chart />
+          </div>
+
+          <div className="footer-cards-div">
+            <FooterCard />
+            <FooterCard />
+          </div>
         </div>
-
-        <div className="flashcards-div">
-          <FlashCard />
-          <FlashCard />
-          <FlashCard />
-          <FlashCard />
-        </div>
-
-        <div>
-          <Chart />
-        </div>
-
-        <div className="footer-cards-div">
-          <FooterCard/>
-          <FooterCard/>
-        </div>
-
-      </div>
+      )}
     </div>
   );
 };
