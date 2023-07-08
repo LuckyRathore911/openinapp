@@ -1,0 +1,26 @@
+.flash-card{
+    width: 13.81581rem;
+    height: 7.5rem;
+    background-color: #DDEFE0;
+    border-radius: 10%;
+    margin-right:2.6rem;
+    margin-top:1rem;
+}
+.flash-card-image{
+    padding-left: 11rem;
+    padding-top: 0.7rem;
+}
+.flash-card-text{
+    color: #000;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 2rem;
+}
+.flash-card-value{
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    font-weight: bolder;
+}

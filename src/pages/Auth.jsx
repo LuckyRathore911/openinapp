@@ -3,6 +3,8 @@ import jwt_decode from "jwt-decode";
 
 import LeftSidebar from "../components/LeftSidebar";
 import Dashboard from "./Dashboard";
+import SignInForm from "../components/SignInForm";
+
 import "../styles/auth.css";
 
 const Auth = () => {
@@ -37,10 +39,13 @@ const Auth = () => {
       {Object.keys(user).length === 0 && (
         <div className="auth-main">
           <LeftSidebar user={""} />
-          <div>
-            <h1>Sign In</h1>
-            <h4>Sign in to your Account</h4>
-            <div id="sign-in-div"></div>
+          <div className="auth-component">
+            <div>
+              <h1>Sign In</h1>
+              <p>Sign in to your Account</p>
+              <div id="sign-in-div"></div>
+              <SignInForm />
+            </div>
           </div>
         </div>
       )}
@@ -49,7 +54,7 @@ const Auth = () => {
       {Object.keys(user).length !== 0 && (
         <div className="auth-main">
           <LeftSidebar user={user} />
-          <Dashboard user={user} />
+          <Dashboard user={user} picture={user.picture} />
         </div>
       )}
     </>

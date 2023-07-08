@@ -6,13 +6,13 @@ import Auth from "./pages/Auth";
 
 const App = () => {
   return (
-    <>
+    <div className='main-div'>
       <Router>
         <Routes>
             <Route exact path='/' element={<Auth/>} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 };
 

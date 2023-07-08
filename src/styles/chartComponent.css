@@ -1,0 +1,25 @@
+.chart-main-div{
+    width:59.3rem; 
+    height:22rem;
+    background-color:white;
+    border-radius: 1rem;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
+    padding: 2rem;
+}
+.heading-1{
+    color: #000;
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.para-side{
+    color:  #858585;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

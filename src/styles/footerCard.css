@@ -1,0 +1,49 @@
+.footer-main-div{
+    width: 26.4rem;
+    height: 12rem;
+    margin-right: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    background-color: #FFFFFF;
+    padding: 2rem;
+}
+.footer-first-div{
+    display: flex;
+    justify-content:space-between;
+}
+.heading-1{
+    color: #000;
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.para-side{
+    color:  #858585;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.para1{
+    color: #666;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.2rem;
+}
+.para2{
+    color: #999;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:0.2rem;
+}
+.row{
+    margin-bottom: 1rem;
+}
