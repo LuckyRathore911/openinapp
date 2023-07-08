@@ -1,0 +1,58 @@
+.sign-in-form{
+    width: 24.0625rem;
+    height: 21rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #FFF;
+    /* border:2px solid black; */
+}
+input{
+    width: 20.3125rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #F5F5F5;
+    margin-left: 1.5rem;
+    border: none;
+}
+.form-value-type{
+    color: #000;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1.5rem;
+    padding-top: 1rem;
+}
+.password-forgot{
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+button{
+    width: 20.7rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #000;
+    color:white;
+    margin-left: 1.5rem;
+}
+.bottom-line-auth{
+    color: #858585;
+    text-align: center;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a{
+    color: var(--link, #346BD4);
+}

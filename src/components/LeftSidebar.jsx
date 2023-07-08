@@ -8,9 +8,7 @@ import user from "../assets/user_icon.svg";
 import setting from "../assets/setting_icon.svg";
 
 const LeftSidebar = (props) => {
-
   return (
-    
     <div className="left-side-bar-main">
       {/* If there is no user then this is displayed */}
       {!props.user && (

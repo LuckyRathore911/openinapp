@@ -1,3 +1,31 @@
 .auth-main{
     display: flex;
 }
+.auth-component{
+    margin-left: 14%;
+    margin-top: 3%;
+}
+h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p{
+    color: #000;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+#sign-in-div{
+    width: 11.25rem;
+    height: 1.875rem;
+    flex-shrink: 0;
+    margin-bottom: 2rem;
+    border-radius: 15%;
+}

@@ -1,6 +1,6 @@
 .left-side-bar-auth{
     width: 36.75rem;
-    height: 38.55rem;
+    height: 40.8rem;
     flex-shrink: 0;
     color: #FFF;
     background-color: #000;
@@ -17,11 +17,16 @@
     font-weight: 700;
     line-height: normal;
 }
-
+.dash-left-heading{
+    color: #FFF;
+}
 .left-side-bar-dash{
-
-    width: 17.5rem;
-    height: 38.55rem;
+    margin-top: 15%;
+    padding-top: 10%;
+    margin-left: 15%;
+    padding-left: 25%;
+    width: 12rem;
+    height: 59rem;
     flex-shrink: 0;
     border-radius: 1.875rem;
     background: #000;
@@ -30,4 +35,10 @@
 
 .bullet-div{
     display: flex;
+}
+.footer-div{
+    margin-top: 27rem;
+}
+img{
+    margin-right: 1rem
 }
